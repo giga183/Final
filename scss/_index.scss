@@ -15,7 +15,15 @@ body {
     text-align: center;
   }
   .text-wrapper {
+    font-size: 1.5rem;
     font-weight: bold;
+  }
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    text-align: center;
+    align-items: center;
   }
   .links {
     display: flex;

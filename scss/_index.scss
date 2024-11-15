@@ -1,0 +1,37 @@
+:root {
+  max-width: 1200px;
+  margin: auto;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 2rem;
+  background-color: aliceblue;
+
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .text-wrapper {
+    font-weight: bold;
+  }
+  .links {
+    display: flex;
+    gap: 3rem;
+
+    a {
+      color: rgb(9, 36, 94);
+    }
+  }
+  .sign-btn {
+    background-color: rgb(0, 0, 0);
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    padding-top: 0.23rem;
+    color: rgb(133, 231, 5);
+    cursor: pointer;
+  }
+}
